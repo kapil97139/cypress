@@ -1,0 +1,41 @@
+# Node.js dependencies
+node_modules/
+
+# Logs
+logs/
+*.log
+
+# Environment variables
+.env
+
+# Build output
+dist/
+build/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+# Reports directory
+reports/
+
+# Screenshots directory
+screenshots/
+
+# Ignore all files with a specific extension (e.g., .pdf for reports or .png/.jpg for screenshots)
+*.pdf
+*.png
+*.jpg
+*.jpeg
+
+# If you want to ignore specific file types only in certain directories, you can specify:
+# Ignore .pdf files only in the reports directory
+reports/*.pdf
+
+# Ignore .png files only in the screenshots directory
+screenshots/*.png
+
+allure-results/
+screenshot/
+test-output/
+build/
+reports/
